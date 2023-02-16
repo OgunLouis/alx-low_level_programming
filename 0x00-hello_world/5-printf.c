@@ -2,9 +2,7 @@
 
 /**
  * main - Entry point
- *
  * Description: prints exactly with proper grammar, but the outcome is a piece of art,
- *
  * Return: Always 0 (Success)
  */
 int main(void)
