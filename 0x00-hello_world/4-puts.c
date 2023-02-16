@@ -3,10 +3,10 @@
 /**
  * *main - prints "Programming is like building a multilingual puzzle
  * followed by a new line
- * Return always 0
+ * Return Ailways 0
  */
 
-int main(void)
+int main()
 
 {
 	puts("\"Programming is like building a multilingual puzzle");
