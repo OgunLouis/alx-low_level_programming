@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints "prints exactly with proper grammar, but the outcome is 
+ * main - prints "prints exactly with proper grammar, but the outcome is
  * a piece of art,"
- * Return: Always 0 
+ * Return: Always 0
  */
 int main(void)
 {
