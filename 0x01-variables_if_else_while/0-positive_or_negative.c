@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/* main - Prints the last digigt of random numbers
- * and wether it is greater than 5, less than 6 or 0
- * Return: Always 0
+#include <stdio.h>
+
+/**
+ *  main - Determines if a number is positive, negative or zero
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -10,22 +13,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if ((n % 10) > 5)
+
+	if (n > 0)
 	{
-		printf("Last digit of %d is %d and is greate
-r than 5\n",
-		n, n %10);
+		printf("%d is positive\n", n);
 	}
-	else if ((n % 10) < 6 && (n %10) != 0)
+	else if (n == 0)
 	{
-		printf("Last digit of %d is %d and is less t
-han 6 and not 0\n",
-		n, n %10);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less t
-han 6 and not 0\n",)
-
+		printf("%d is negative\n", n);
+	}
 	return (0);
 }
