@@ -1,3 +1,4 @@
+#include <unistd.h>
 /**
  * _putchar writes char to stdout
  * c: is the char to print
@@ -7,5 +8,5 @@
 
 int _putchar(char c)
 {
-	return (write(1, %c, 1));
+	return (write(1, &c, 1));
 }
