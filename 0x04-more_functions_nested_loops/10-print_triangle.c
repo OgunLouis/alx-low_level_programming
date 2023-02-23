@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle -m triangle orint
- * @size: value 
+ * @size: value
  * Return: empty
  */
 
@@ -9,6 +9,7 @@ void print_triangle(int size)
 
 {
 	int x, y, z;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
