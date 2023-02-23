@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_line - print
- * @n - the number
- * Return: epty
- */
+* print_line - print
+* @n - the number
+* Return: empty
+*/
 
 void print_line(int n)
 
