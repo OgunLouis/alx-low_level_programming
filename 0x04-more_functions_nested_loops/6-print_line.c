@@ -2,7 +2,7 @@
 
 /**
 * print_line - print
-* @n - the number
+* @n: the number
 * Return: empty
 */
 
