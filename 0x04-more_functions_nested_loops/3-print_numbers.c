@@ -6,7 +6,10 @@
  */
 
 void print_numbers(void)
+
 {
+
+
 	int c;
 	int _putchar(char c);
 
