@@ -1,0 +1,26 @@
+ 1 #include "main.h"
+  2 
+  3 /**
+  4  * puts2 - prints
+  5  * @str: the string
+  6  * Return: void
+  7  */
+  8 
+  9 void puts2(char *str)
+ 10 
+ 11 {
+ 12         int i;
+ 13         int j = 0;
+ 14 
+ 15         while (str[j] != '\0')
+ 16         {
+ 17                 j++;
+ 18         }
+ 19 
+ 20         for (i = 0; i < j; i += 2)
+ 21         {
+ 22                 _putschar(str[i]);
+ 23         }
+ 24                 _putchar('\n');
+ 25 }
+~         
