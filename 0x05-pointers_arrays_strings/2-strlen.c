@@ -2,7 +2,7 @@
 
 /**
  * _strlen - Returns
- * @str: the 
+ * @str: the
  * Return: length
  */
 size_t _strlen(const char *str)
