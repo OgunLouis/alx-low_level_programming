@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * reset_to_98 - resets the value to return 98
+ * reset_to_98 - Takes a pointer to int and updates value to 98
  *
- * @n: value to be reset
+ * @n: int input pointer
  *
  * Return : nothing
  */
