@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+
 /*
  * reset_to_98 - resets the value to return 98
  *
