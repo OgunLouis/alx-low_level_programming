@@ -1,25 +1,51 @@
-/*
-* File: 100-is_palindrome.c
-* Auth: Louis
-*/
+include "main.h"
 
-#include "main.h"
-int find_strlen(char *s);
-int check_palindrome(char *s, int len, int index);
-int is_palindrome(char *s);
 /**
-* find_strlen - Returns the length of a string.
+* _strlen_recursion - Returns the length of a string.
 * @s: The string to be measured.
 *
 * Return: The length of the string.
 */
-int find_strlen(char *s)
+
+int _strlen_recursion(char *s)
+
 {
-int len = 0;
-if (*(s + len))
+if (!*s)
 {
-len++;
-len += find_strlen(s + len);
+	return (0);
 }
-return (len);
+return (1 + _strlen_recursion(++s));
+
+}
+
+/**
+ * p1 - palindrome
+ * @s: pointer to string
+ * @l: position
+ * Return: boolean
+ */
+
+int p1(char *s, int l)
+{
+	if (l < 1)
+	{
+		return (1);
+	}
+
+	if (*s == *(s + 1))
+	{
+		return (p1(s + 1, 1 - 2));
+	}
+}
+
+/**
+ * is_palindrome - pal
+ * @s: pointer
+ * Return: recursion
+ */
+int is_palindrome(char *s)
+{
+	int len = _strlen_recursion(s);
+
+	return (p1(s, len - 1));
 }
