@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ar -rcs liball.a 0-isupper.o 0-memset.o 0-strcat.o 1-isdigit.o
 ar -rcs liball.a 1-memcpy.o 1-strncat.o
 ar -rcs liball.a 100-atoi.o 2-strchr.o 2-strlen.o 2-strncpy.o
